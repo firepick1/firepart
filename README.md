@@ -24,7 +24,7 @@ From the firepart directory, you can print out the description of a FirePart&tra
 
 <pre>cat `git ls-tree -r HEAD | grep 229845f397d653faf2578e532d25681623d3d0c4 | sed "s/.*\s//"`</pre>
 
-Since a FirePart&trade identifier is a git object hash, you can even abbreviate a FirePart&trade; identifier:
+Since a FirePart&trade; identifier is a git object hash, you can even abbreviate a FirePart&trade; identifier:
 <pre>cat `git ls-tree -r HEAD | grep 229845f | sed "s/.*\s//"`</pre>
 
 And since all FirePart&trade;s are files in the git repository, they have URL's:
