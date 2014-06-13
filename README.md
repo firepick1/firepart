@@ -22,6 +22,6 @@ The above part description uniquely corresponds to the following FirePart&trade;
 
 From the firepart directory, you can print out the description of a FirePart&trade identifier; as follows:
 
-`cat `git ls-tree -r HEAD | grep 229845f397d653faf2578e532d25681623d3d0c4 | sed "s/.*\s//"`
+<pre>cat `git ls-tree -r HEAD | grep 229845f397d653faf2578e532d25681623d3d0c4 | sed "s/.*\s//"`</pre>
 
 
